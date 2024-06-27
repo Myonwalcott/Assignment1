@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: var(--margin);
     padding: 20px;
-    background-image: url('https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTiWxNs_2vXpORB4B_98IB6p5aWqVYZBMegnXC-rsCMpKLMIfC1');
+    background-image: url('https://img.freepik.com/premium-vector/misty-blue-blue-grotto-blue-gray-gradient-wallpaper-background-vector-illustration_172010-1244.jpg');
     color: var(--primary-color);
     height: 100%;
     position: relative; /* Make body relative for absolute positioning */
@@ -52,9 +52,9 @@ body {
 }
 
 :root {
-    --primary-color: #e57c29;
-    --secondary-color: #442825;
-    --third-color: rgb(13, 1, 28);
+    --primary-color: #c6d8e4;
+    --secondary-color: #6b9ebd;
+    --third-color: #95b1bf;
     --font-size: 30px;
     --margin: 10px;
 }
@@ -63,20 +63,20 @@ body {
     color: var(--primary-color);
     font-size: clamp(1rem, 2vw, 2rem);
     text-align: center;
-    background: -webkit-linear-gradient(#e57c29, #442825);
+    background: -webkit-linear-gradient(#6b9ebd, #c6d8e4);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .content {
-    background: -webkit-linear-gradient(#e57c29, #442825);
+    background: -webkit-linear-gradient(#95b1bf, #6b9ebd);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .intro:hover {
     font-size: var(--font-size);
-    background: -webkit-linear-gradient(#e57c29, #442825);
+    background: -webkit-linear-gradient(#6b9ebd, #c6d8e4);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin: var(--margin);
